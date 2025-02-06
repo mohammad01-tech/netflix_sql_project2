@@ -1,24 +1,5 @@
 -- Netflix Project
 
-DROP TABLE IF exists NETFLIX;
-create table netflix
-(
-  show_id      varchar(10),
-  type	       varchar(15),
-  title	       varchar(150),
-  director	   varchar(250),
-  casts	       varchar(1000),
-  country	   varchar(150) ,
-  date_added   varchar(50),
-  release_year 	int ,
-  rating	    varchar(10),
-  duration	    varchar(15),
-  listed_in	    varchar(100),
-  description   varchar(250)
-  );
-  
-select * from netflix;
-
 -- 15 Business Problems & Solutions
 
 -- 1. Count the number of Movies vs TV Shows
